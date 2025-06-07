@@ -1,0 +1,35 @@
+#ifndef PARSER_H
+#define PARSER_H
+
+/* Token types */
+enum TokenType {
+    TOKEN_KW_PROG = 255,
+    TOKEN_KW_NEW = 256,
+    TOKEN_KW_CASE = 257,
+    TOKEN_KW_ISVOID = 258,
+    TOKEN_ASSIGN = 259,
+    TOKEN_OBJECTID = 260,
+    TOKEN_TYPEID,
+    TOKEN_KW_IF,
+    TOKEN_KW_ELSE,
+    TOKEN_KW_FI,
+    TOKEN_KW_LOOP,
+    TOKEN_KW_POOL,
+    TOKEN_KW_IN,
+    TOKEN_KW_LET,
+    TOKEN_KW_ESAC,
+    TOKEN_KW_NOT,
+    TOKEN_KW_OF,
+    TOKEN_KW_THEN,
+    TOKEN_KW_WHILE,
+    TOKEN_LEQ,
+    TOKEN_NEQ,
+    TOKEN_EQ,
+    TOKEN_INTEGER,
+    TOKEN_STRING,
+    TOKEN_KW_INHERITS,
+    TOKEN_BOOL_FALSE,
+    TOKEN_BOOL_TRUE
+};
+
+#endif
